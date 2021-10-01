@@ -1,0 +1,295 @@
+<!DOCTYPE html> 
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <title>Final - Gmail Clone</title>
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <div class="header">
+      <div class="header__left">
+        <span class="material-icons"> menu </span>
+        <img src="{% static 'images/email_logo.jpg' %}" alt="" />
+      </div>
+
+      <div class="header__middle">
+        <span class="material-icons"> search </span>
+        <input type="text" placeholder="Mail analytics" />
+        <span class="material-icons"> arrow_drop_down </span>
+      </div>
+
+      <div class="header__right">
+        <span class="material-icons"> account_circle </span>
+      </div>
+    </div>
+    <!-- Header Ends -->
+
+    <!-- Main Body Starts -->
+    <div class="main__body">
+      <!-- Sidebar Starts -->
+      <div class="sidebar">
+        <button class="sidebar__compose">
+          <span class="material-icons"> add </span>Compose
+        </button>
+        <div class="sidebarOption ">
+          <span class="material-icons"> inbox </span>
+          <a href="{% url 'index' %}"><h3>Inbox</h3></a>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> star </span>
+          <a href="{% url 'important' %}"><h3>Important</h3></a>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> access_time </span>
+          <a href="{% url 'officemail' %}"><h3>Office mails</h3></a>
+        </div>
+
+        <div class="sidebarOption sidebarOption__active">
+          <span class="material-icons"> label_important </span>
+          <a href="{% url 'advertisment' %}"> <h3>Advertisment</h3></a>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> near_me </span>
+          <a href="{% url 'event' %}"> <h3>Events</h3></a>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> note </span>
+          <a href="{% url 'invitation' %}"> <h3>Invitations</h3></a>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> expand_more </span>
+          <a href="{% url 'formsfillups' %}"><h3>formsfillups</h3></a>
+        </div>
+      </div>
+      <!-- Sidebar Ends -->
+
+      <!-- Email List Starts -->
+      <div class="emailList">
+        <!-- Settings Starts -->
+        <div class="emailList__settings">
+          <div class="emailList__settingsLeft">
+            <input type="checkbox" />
+            <span class="material-icons"> arrow_drop_down </span>
+            <span class="material-icons"> redo </span>
+            <span class="material-icons"> more_vert </span>
+          </div>
+          <div class="emailList__settingsRight">
+            <span class="material-icons"> chevron_left </span>
+            <span class="material-icons"> chevron_right </span>
+            <span class="material-icons"> keyboard_hide </span>
+            <span class="material-icons"> settings </span>
+          </div>
+        </div>
+        <!-- Settings Ends -->
+
+        <!-- Section Starts -->
+
+        <!-- Section Ends -->
+
+        <!-- Email List rows starts -->
+        <div class="emailList__list">
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">Medium </h3>
+
+            <div class="emailRow__message">
+              <h4>
+                You Got a New Mail
+                <span class="emailRow__description">
+                  - on sourabhmishra1262@gmail.com
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">11:52 PM</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">Facebook</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                You Got a New Mail
+                <span class="emailRow__description">
+                  - on sourabhmishra1262@gmail.com
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10:46 PM</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">Team Twilio</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                You Got a New Mail
+                <span class="emailRow__description">
+                  - on sourabhmishra1262@gmail.com
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">9:38 PM</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">Pinterest</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                You Got a New Mail
+                <span class="emailRow__description">
+                  - on sourabhmishra1262@gmail.com
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">9:28 PM</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">Manorama Yearbook</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                You Got a New Mail
+                <span class="emailRow__description">
+                  - on sourabhmishra1262@gmail.com
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">9:19 PM</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">Groww Digest</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                You Got a New Mail
+                <span class="emailRow__description">
+                  - on sourabhmishra1262@gmail.com
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">8:22 PM</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">Preeti</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                You Got a New Mail
+                <span class="emailRow__description">
+                  - on sourabhmishra1262@gmail.com
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">Aug 13</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">Axis Direct</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                You Got a New Mail
+                <span class="emailRow__description">
+                  - on sourabhmishra1262@gmail.com
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">Aug 4</p>
+          </div>
+          <!-- Email Row Ends -->
+        </div>
+        <!-- Email List rows Ends -->
+      </div>
+      <!-- Email List Ends -->
+    </div>
+    <!-- Main Body Ends -->
+  </body>
+</html>
