@@ -35,5 +35,5 @@ In the world of Internet today, huge amount of data is transferred between compu
 ![alt text](https://github.com/code-sourabh/Car-Number-Plate-Detection/blob/master/invitations.png?raw=true)
 
 
-### All thr maisl related to the office
+### All thr mails related to the office
 ![alt text](https://github.com/code-sourabh/Car-Number-Plate-Detection/blob/master/office_mails.png?raw=true)
