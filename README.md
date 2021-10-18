@@ -9,31 +9,31 @@ In the world of Internet today, huge amount of data is transferred between compu
 ![alt text](https://github.com/code-sourabh/email-classification-project/blob/master/SummerPro/unread_email.png?raw=true)
 
 ### Creating docker image using ubuntu as base image
-![alt text](https://github.com/code-sourabh/Car-Number-Plate-Detection/blob/master/creating_docker_image.png?raw=true)
+![alt text](https://github.com/code-sourabh/email-classification-project/blob/master/SummerPro/creating_docker_image.png)
 
 ### Docker image pushed to hub.docker.com
-![alt text](https://github.com/code-sourabh/Car-Number-Plate-Detection/blob/master/docker_image.png?raw=true)
+![alt text](https://github.com/code-sourabh/email-classification-project/blob/master/SummerPro/docker_image.png?raw=true)
 
 ### Backend build on django 
-![alt text](https://github.com/code-sourabh/Car-Number-Plate-Detection/blob/master/backend.png?raw=true)
+![alt text](https://github.com/code-sourabh/email-classification-project/blob/master/SummerPro/backend.png?raw=true)
 
 ### All the unread emails are listed in the inbox of email classfier
-![alt text](https://github.com/code-sourabh/Car-Number-Plate-Detection/blob/master/inbox.png?raw=true)
+![alt text](https://github.com/code-sourabh/email-classification-project/blob/master/SummerPro/inbox.png?raw=true)
 
 ### The unread email is classified as an ad by the email classfier
-![alt text](https://github.com/code-sourabh/Car-Number-Plate-Detection/blob/master/ads.png?raw=true)
+![alt text](https://github.com/code-sourabh/email-classification-project/blob/master/SummerPro/ads.png?raw=true)
 
 ### Events mails 
-![alt text](https://github.com/code-sourabh/Car-Number-Plate-Detection/blob/master/events.png?raw=true)
+![alt text](https://github.com/code-sourabh/email-classification-project/blob/master/SummerPro/events.png?raw=true)
 
 
 ### important mails 
-![alt text](https://github.com/code-sourabh/Car-Number-Plate-Detection/blob/master/important.png?raw=true)
+![alt text](https://github.com/code-sourabh/email-classification-project/blob/master/SummerPro/important.png?raw=true)
 
 
 ### All the invitation mails 
-![alt text](https://github.com/code-sourabh/Car-Number-Plate-Detection/blob/master/invitations.png?raw=true)
+![alt text](https://github.com/code-sourabh/email-classification-project/blob/master/SummerPro/invitations.png?raw=true)
 
 
 ### All thr mails related to the office
-![alt text](https://github.com/code-sourabh/Car-Number-Plate-Detection/blob/master/office_mails.png?raw=true)
+![alt text](https://github.com/code-sourabh/email-classification-project/blob/master/SummerPro/office_mails.png?raw=true)
